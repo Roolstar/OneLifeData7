@@ -5,7 +5,10 @@ let nextObjectNumber = Number(fs.readFileSync('../objects/nextObjectNumber.txt')
 
 for (const d of data) {
     const objectName = d.substr(0, d.indexOf('\t'));
+console.log("name: " + objectName);
     const copiedObjectId = d.replace(`${objectName}\t`, '');
+console.log("id: " , copiedObjectId);
+if (copiedObjectId == "") continue;
     const copiedObjectFileContents = fs.readFileSync(`../objects/${copiedObjectId}.txt`).toString('utf8');
 
     const matchCopiedObjectId = copiedObjectFileContents.match(/id=(\d+)?/);

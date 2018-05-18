@@ -8,7 +8,7 @@
 35;Gooseberry Seed
 36;Seeding Wild Carrot
 39;Dug Wild Carrot
-40;Wild Carrot
+40;Wild Carrot#dug
 45;Lombardy Poplar Tree
 48;Maple Tree
 49;Juniper Tree
@@ -62,9 +62,9 @@
 108;East-West Wall Stakes
 109;North-South Wall Stakes
 110;Corner Wall Stakes
-111;Pine Wall
-112;Pine Wall
-113;Pine Wall
+111;Pine Wall#corner
+112;Pine Wall#west east
+113;Pine Wall#north south
 114;Pine Door
 115;Pine Door# Installed
 116;Pine Door# installed vert
@@ -100,12 +100,12 @@
 151;Yew Bow
 152;Bow and Arrow
 153;Yew Tree#Branch
-154;Adobe Wall
-155;Adobe Wall
-156;Adobe Wall
-157;Partial Adobe Wall
-158;Partial Adobe Wall
-159;Partial Adobe Wall
+154;Adobe Wall#corner
+155;Adobe Wall#west east
+156;Adobe Wall#north south
+157;Partial Adobe Wall#corner
+158;Partial Adobe Wall#west east
+159;Partial Adobe Wall#north south
 160;Snare
 161;Rabbit Hole#hiding,single
 162;Snared Rabbit Hole#hiding
@@ -127,12 +127,12 @@
 179;Rabbit Hole with Used Snare#family
 180;Dead Rabbit
 181;Skinned Rabbit
-182;Skinned Rabbit
+182;Skinned Rabbit#fur
 183;Rabbit Fur
 184;Four Pieces of Cut Rabbit Fur
 185;Skewered Rabbit
-186;Cooked Rabbit
-187;Burnt Rabbit
+186;Cooked Rabbit#skewer
+187;Burnt Rabbit#skewer
 189;Rabbit Bone
 190;Rabbit Bones
 191;Bone Needle
@@ -403,10 +403,10 @@
 514;Dead Canada Goose
 515;Plucked Canada Goose
 516;Skewered Goose
-517;Cooked Goose
+517;Cooked Goose#skewer
 518;Cooked Goose
 519;@ Food Burner
-520;Burnt Goose
+520;Burnt Goose#skewer
 521;Burnt Goose
 522;Goose Bones
 524;@ Edible Pie
@@ -428,9 +428,9 @@
 546;Split Big Rock#chisel
 547;Bowl of Carrot
 548;Bowl of Mashed Carrot
-549;Fence
-550;Fence
-551;Fence
+549;Fence#north south
+550;Fence#west east
+551;Fence#corner
 553;East-West Fence Holes
 554;North-South Fence Holes
 555;Corner Fence Holes
@@ -454,7 +454,7 @@
 573;Arrow#just pulled
 575;Domestic Sheep
 576;Shorn Domestic Sheep
-577;Shorn Domestic Sheep
+577;Shorn Domestic Sheep#fleece
 578;Fleece
 579;Drop Spindle
 580;Big Ball of Yarn
@@ -609,12 +609,12 @@
 750;Bloody Knife
 752;Murder Grave
 753;Adobe Rubble
-754;Damp Adobe Wall
-755;Soft Adobe Wall
-756;Damp Adobe Wall
-757;Damp Adobe Wall
-758;Soft Adobe Wall
-759;Soft Adobe Wall
+754;Damp Adobe Wall#corner
+755;Soft Adobe Wall#corner
+756;Damp Adobe Wall#north south
+757;Damp Adobe Wall#west east
+758;Soft Adobe Wall#north south
+759;Soft Adobe Wall#west east
 760;Dead Tree
 761;Barrel Cactus
 762;Flowering Barrel Cactus
@@ -646,7 +646,7 @@
 791;Monolith
 792;Full Monolith
 793;The Apocalypse
-794;Crowned Wild Horse
+794;Crowned Wild Horse#tethered
 795;Crowned Captured Horse
 796;Crowned Wild Horse
 797;Wound Blood
@@ -660,7 +660,7 @@
 805;Wild Onion
 806;Dug Burdock
 807;Burdock Root
-808;Wild Onion
+808;Wild Onion#dug
 809;Tower Bell
 810;Two Gold Ingots
 811;Split Big Rock with Chisel
@@ -730,22 +730,22 @@
 879;Open Wooden Door# installed vert
 880;Big Stack of Boards
 881;Cut Stones
-882;Split Big Rock with Chisel
+882;Split Big Rock with Chisel#both pieces
 883;Cut Stones with Chisel
 884;Stone Floor
-885;Stone Wall
-886;Stone Wall
-887;Stone Wall
+885;Stone Wall#corner
+886;Stone Wall#north south
+887;Stone Wall#west east
 888;Bear Skin Rug# stone
-889;Cracking Adobe Wall
-890;Cracking Adobe Wall
-891;Cracking Adobe Wall
-892;Fixed Adobe Wall
-893;Fixed Adobe Wall
-894;Fixed Adobe Wall
-895;Ancient Stone Wall
-896;Ancient Stone Wall
-897;Ancient Stone Wall
+889;Cracking Adobe Wall#corner
+890;Cracking Adobe Wall#north south
+891;Cracking Adobe Wall#west east
+892;Fixed Adobe Wall#west east
+893;Fixed Adobe Wall#north south
+894;Fixed Adobe Wall#corner
+895;Ancient Stone Wall#corner
+896;Ancient Stone Wall#west east
+897;Ancient Stone Wall#north south
 898;Ancient Stone Floor
 899;Sheep Dung
 900;Shovel of Dung

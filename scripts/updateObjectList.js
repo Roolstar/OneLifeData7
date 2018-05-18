@@ -14,8 +14,8 @@ for (const file of fileList) {
         continue;
     }
     const fileContents = fs.readFileSync(`../objects/${file}`).toString();
-    const id = fileContents.match(/id=(\d+)?\n/);
-    const name = fileContents.match(/\n(.+)?\n/);
+    const id = fileContents.match(/id=(\d+)?(\r)?\n/);
+    const name = fileContents.match(/\n(.+)?(\r)?\n/);
     if (id != null && name != null) {
         if (!name[1]) {
             console.log(`Problem in file ${file}`);
