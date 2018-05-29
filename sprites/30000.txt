@@ -1,1 +1,1 @@
-WOLVEN 0 0 0
+WolvenEmote 0 0 -3
